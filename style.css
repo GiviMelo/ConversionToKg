@@ -33,7 +33,7 @@ body {
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    margin-top: 10%;
+    margin-top: 5%;
 
 }
 
@@ -79,7 +79,7 @@ button {
     justify-content: center;
     display: flex;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 10px;
     align-items: center;
     padding: 20px;
 }
@@ -146,5 +146,13 @@ button {
 
 button.reset {
     float: left;
+}
+
+.footer {
+    font: italic 13pt Arial;
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
 }
 
