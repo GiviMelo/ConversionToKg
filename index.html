@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Café to Sc</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <header>
+    <h1 class="title">
+      Conversão Kg em Sc
+    </h1>
+  </header>
+  <body>
+    <section class="conversion">
+      <form id="conversion">
+        <div class="conteiner">
+          <label for="oneKg">
+            Peso(Kg)
+            <br>
+            Por saca
+          </label>
+          <input type="number" name="oneKg" id="oneKg" value="61">
+        </div>
+        <div class="conteiner">
+          <label for="totalKg">
+            Peso(Kg)
+            <br>
+            Total
+          </label>
+          <input type="number" name="totalKg" id="totalKg">
+        </div>
+        <button class="reset" onclick="reset(idName)">Resetar</button>
+        <button onclick="calculateConversion(event)">
+          Verificar
+        </button>
+      </form>
+    </section>
+
+    <section class="res">
+      <div class="containerRes" id="divTotal">
+        <div class="contTotal">
+          <div class="bgLeft">
+            <p>TOTAL</p>
+          </div>
+          <div class="bgRight">
+            <p id="totalMaster">
+              
+            </p>
+          </div>
+        </div>
+        <p class="percentage">80%-20%</p>
+        <div class="contRes">
+          <div class="bgLeft">
+            <p>Patrão</p>
+            <p>Meeiro</p>
+          </div>
+          <div class="bgRight">
+            <p id="EightyPercBoss"></p>
+            <p id="TwentyPercEmpl"></p>
+          </div>
+        </div>
+        <p class="percentage">60%-40%</p>
+        <div class="contRes">
+          <div class="bgLeft">
+            <p>Patrão</p>
+            <p>Meeiro</p>
+          </div>
+          <div class="bgRight">
+            <p id="SixtyPercBoss"></p>
+            <p id="FortyPercEmpl"></p>
+          </div>
+        </div>
+        <p class="percentage">Meia</p>
+        <div class="contRes">
+          <div class="bgLeft">
+            <p>Patrão</p>
+            <p>Meeiro</p>
+          </div>
+          <div class="bgRight">
+            <p id="FiftyPercBoss"></p>
+            <p id="FiftyPercEmpl"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>

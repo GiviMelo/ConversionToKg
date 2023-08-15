@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--blue-dark);
+}
+
+:root {
+    --blue-dark: #000274;
+    --blue: #0084ff;
+    --white: #f6f6f6;
+    --yellow: #ffd900;
+    --orange: #ff9900;
+    --body-font: 'DM Sans', sans-serif;
+}
+
+.title  {
+    text-align: center;
+    margin-top: 4rem;
+    color: var(--white);
+    font: bold 26pt sans-serif;
+}
+
+.conversion {
+    background: var(--yellow);
+    width: 500px;
+    height: auto;
+    border-radius: 15px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 10%;
+
+}
+
+form {
+    padding: 13px;
+}
+
+input {
+margin-left: 10px;
+border-radius: 0 12px 12px 0;
+border: none;
+font-size: large;
+}
+
+.conteiner {
+    display: flex;
+    padding: 10px;
+    font: normal 13pt sans-serif;
+}
+
+label {
+    background: var(--blue);
+    padding: 8px;
+    border-radius: 12px 0 0 12px;
+    text-align: center;
+}
+
+button {
+    float: right;
+    background: var(--orange);
+    width: 100px;
+    height: 30px;
+    color: var(--white);
+    border-radius: 15px;
+    border: none;
+}
+
+.res {
+    background: var(--yellow);
+    width: 500px;
+    height: auto;
+    border-radius: 15px;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 50px;
+    align-items: center;
+    padding: 20px;
+}
+
+.contTotal {
+    display: flex;
+    padding-top: 0px;
+    font-size: large;
+}
+
+.contRes {
+    display: flex;
+    font-size: large;
+}
+
+.bgLeft {
+    background: var(--blue);
+    text-align: center;
+    padding: 8px;
+    border-radius: 12px 0 0 12px;
+    width: 200px;
+}
+
+.contTotal .bgLeft {
+    display: flex;
+    border-radius: 12px 0 0 12px;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 0 10px 0;
+}
+
+.contRes .bgLeft {
+    background: var(--blue);
+    padding: 8px;
+    border-radius: 12px 0 0 12px;
+    text-align: center;
+    margin: 0 0 10px 0;
+}
+
+.bgRight {
+    background: var(--white);
+    padding: 8px;
+    width: 100%;
+    border-radius: 0 12px 12px 0;
+}
+
+.contTotal .bgRight {
+    margin: 0 0 10px 0;
+}
+
+.contRes .bgRight {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 0 10px 0;
+}
+
+.percentage {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    color: var(--blue-dark);
+}
+
+button.reset {
+    float: left;
+}
+
